@@ -1,0 +1,25 @@
+
+---
+
+# 🚀 Como subir no GitHub
+
+### Método pelo site:
+
+1. Vá em github.com  
+2. Clique em **New Repository**  
+3. Nome: `xadrez-logica-c`  
+4. Crie os arquivos acima  
+5. Cole os códigos  
+6. Commit  
+
+---
+
+### Método profissional (terminal):
+
+```bash
+git init
+git add .
+git commit -m "Implementação da lógica do jogo de xadrez em C"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/xadrez-logica-c.git
+git push -u origin main
